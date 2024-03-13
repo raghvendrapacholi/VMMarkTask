@@ -23,7 +23,7 @@ struct ContentView: View {
                 RoomsView().navigationTitle("Rooms")
             }.tabItem { Label("Rooms", systemImage: "calendar.circle.fill")
             }
-        }
+        }.accentColor(Color.baseColor)
     }
 }
 

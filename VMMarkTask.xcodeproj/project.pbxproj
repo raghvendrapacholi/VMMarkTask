@@ -34,6 +34,7 @@
 		DDB23AE92BA09C29004F75D0 /* ProgressLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB23AE82BA09C29004F75D0 /* ProgressLoader.swift */; };
 		DDB23AEB2BA09FBC004F75D0 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB23AEA2BA09FBC004F75D0 /* AlertView.swift */; };
 		DDB23AF12BA0B1A4004F75D0 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB23AF02BA0B1A4004F75D0 /* CircularView.swift */; };
+		DDB23DEE2BA144BF004F75D0 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB23DED2BA144BF004F75D0 /* Color.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		DDB23AE82BA09C29004F75D0 /* ProgressLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLoader.swift; sourceTree = "<group>"; };
 		DDB23AEA2BA09FBC004F75D0 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		DDB23AF02BA0B1A4004F75D0 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
+		DDB23DED2BA144BF004F75D0 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				DD3FE5972B9A0EA1007CA9DA /* Persistence.swift */,
 				DD3FE5992B9A0EA1007CA9DA /* VMMarkTask.xcdatamodeld */,
 				DD3FE5942B9A0EA1007CA9DA /* Preview Content */,
+				DDB23DED2BA144BF004F75D0 /* Color.xcassets */,
 			);
 			path = VMMarkTask;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 			files = (
 				DD3FE5962B9A0EA1007CA9DA /* Preview Assets.xcassets in Resources */,
 				DD3FE5932B9A0EA1007CA9DA /* Assets.xcassets in Resources */,
+				DDB23DEE2BA144BF004F75D0 /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 public extension String {
     
@@ -19,4 +20,9 @@ public extension String {
         guard let date = formatter.date(from: self) else { return "" }
         return formatter.string(from: date)
     }
+}
+
+public extension Color {
+    
+    static let baseColor = Color("base")
 }
